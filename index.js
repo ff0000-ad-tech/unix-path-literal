@@ -1,4 +1,4 @@
-function unixPath(string) {
+function unixPathLiteral(string) {
 	return string.replace(/\s/g, `\\ `)
 		.replace(/'/g, `\\'`)
 		.replace(/\(/g, `\\(`)
@@ -6,4 +6,4 @@ function unixPath(string) {
 		.replace(/-/g, `\\-`)
 		.replace(/&/g, `\\&`);
 }
-module.exports = unixPath;
+module.exports = unixPathLiteral;

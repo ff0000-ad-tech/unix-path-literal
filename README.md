@@ -16,15 +16,15 @@ The list is not exhaustive -- just the characters that our users constantly use:
 
 ## Install
 ```bash
-npm install git://github.com:gmcdev/unix-path.git --save
+npm install git://github.com:gmcdev/unix-path-literal.git --save
 ```
 
 ## Usage
 ```javascript
-const unixPath = require('unix-path');
+const unixPathLiteral = require('unix-path-literal');
 
 const command = `Project/ESPN Wimbledon 2017 -- CLONE/creative (version 1 & '2')/my-bash-script.sh`;
-console.log(unixPath(command));
+console.log(unixPathLiteral(command));
 // => Project/ESPN\ Wimbledon\ 2017\ \-\-\ CLONE/creative\ \(version\ 1\ \&\ \'2\'\)/my\-bash\-script.sh
 ```
 
