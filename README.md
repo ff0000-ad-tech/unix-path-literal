@@ -1,8 +1,8 @@
-## Unix Path
+## Unix Path Literal
 
-Different systems can use unix control characters in file/directory names. You may need to escape them in some circumstances.
+Different systems can use unix control characters in file/directory names. If trying to render the literal escapes, you may need extra escaping.
 
-Disclaimer: *If you're using your spawning module correctly, __you should not need to do this__.* But if you need to return a Terminal-safe executable string, then this might be handy.
+Disclaimer: *If you're using your spawning module correctly, __you do not need this__.* But if you need to return a Terminal-safe executable string to a view, then this might be handy.
 
 #### The replacements:
 The list is not exhaustive -- just the characters that our users constantly use:
