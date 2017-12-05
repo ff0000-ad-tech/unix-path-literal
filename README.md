@@ -15,7 +15,7 @@ The list is not exhaustive -- just the characters that our users constantly use:
 
 
 ## Install
-```javascript
+```bash
 npm install git://github.com:gmcdev/unix-path.git --save
 ```
 
