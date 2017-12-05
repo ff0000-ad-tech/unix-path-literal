@@ -1,0 +1,22 @@
+{
+  "name": "unix-path",
+  "version": "1.0.0",
+  "description": "OS file-systems can use control characters in file/directory names. You may need to escape them in some circumstances.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmcdev/unix-path.git"
+  },
+  "author": "Greg Connell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmcdev/unix-path/issues"
+  },
+  "homepage": "https://github.com/gmcdev/unix-path#readme"
+}
