@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "OS file-systems can use control characters in file/directory names. You may need to escape them in some circumstances.",
 	"main": "index.js",
 	"scripts": {
